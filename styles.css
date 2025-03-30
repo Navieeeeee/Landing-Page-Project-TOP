@@ -1,0 +1,189 @@
+body{
+ margin: 0;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a{
+ text-decoration: none;
+}
+.nav{
+ display: flex;
+ justify-content: space-between;
+ background-color: #441752;
+ padding: 8px 64px;
+ font-size: 18px;
+ text-align: center;
+}
+.nav-links{
+ list-style-type: none;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 24px;
+}
+.right-nav{
+ display: flex;
+ align-content: center;
+}
+.left-nav{
+display: flex;
+align-items: center;
+}
+#logo{
+ border-radius: 75%;
+ border: 2px #FFDFEF solid;
+ margin: 10px 0;
+}
+.nav-link{
+ color: #FFDFEF;
+}
+.nav-button{
+ color: #420747;
+ font-size: 18px;
+ background-color: #FFDFEF;
+ border: none;
+ border-radius: 10px;
+ line-height: 20px;
+ padding: 6px 12px;
+}
+.header{
+ background-image: url(./images/purple-swirl.jpg);
+ background-size: cover;
+ background-position: center;
+ margin: 0;
+ display: flex;
+ padding: 48px 64px;
+ align-items: center;
+ justify-content: space-between;
+ gap: 24px;
+}
+.header-text{
+ color: #420747;
+ background-color: #BC7FCD79;
+ padding: 48px;
+ border-radius: 2%;
+ flex-basis: 450px;
+}
+#forefront{
+ border-radius: 5%;
+ max-width: 500px;
+}
+h1{
+ font-size: 36px;
+ font-weight: 900;
+}
+.text{
+ font-size: 18px;
+ color: #441752;
+}
+.header-button{
+ padding: 6px 12px;
+ color: #420747;
+ background-color: #FFDFEF;
+ border: solid 2px #FFDFEF;
+ border-radius: 10px;
+ font-size: 18px;
+}
+.catalogue{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ align-items: center;
+ padding: 96px;
+ background-color: #f3deed;
+ gap: 32px;
+ text-align: center;
+}
+.title{
+ font-size: 32px;
+ color: #420747;
+ font-weight: 700;
+}
+.sector-container{
+ display: flex;
+ flex-wrap: nowrap;
+ justify-content: center;
+ gap: 16px;
+}
+.sector{
+ display: flex;
+ flex-flow: column nowrap;
+ align-items: center;
+ gap: 8px;
+ max-width: 250px;
+}
+.sector-title{
+ font-size: 18px;
+ font-weight: 900;
+ color: #441752;
+}
+.sector-image{
+ border-radius: 5%;
+ border: #420747 solid 4px;
+}
+.quote{
+ background-color: #E6B2BA;
+ display: flex;
+ padding: 132px 256px;
+ flex-direction: column;
+ gap: 2px;
+ justify-content: center;
+ align-items: center;
+}
+.quote-text{
+ color: #753188a2;
+ font-size: 36px;
+ font-style: italic;
+ font-weight: 100;
+}
+.quoted{
+ font-size: 18px;
+ font-weight: 700;
+ align-self: flex-end;
+}
+.calling-card{
+ background-color: #f3deed;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 80px 64px;
+}
+.card-container{
+ padding: 16px 64px;
+ background-color: #E6B2BA;
+ border-radius: 10px;
+ display: flex;
+ justify-content: space-between;
+ gap: 100px;
+ color: #420747;
+}
+.card-button{
+ align-self: center;
+}
+#card-button{
+ border: solid 4px #420747;
+ padding: 16px 32px;
+ border-radius: 8px;
+ /* background-color: #9b3eb4; */
+ background-color: #E6B2BA;
+ font-size: 16px;
+ color: #420747;
+ font-weight: 700;
+}
+.footer{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 32px;
+ background-color: #441752;
+ color: #FFDFEF;
+}
+.nav-button:hover{
+ border: #E6B2BA solid 2px;
+}
+.header-button:hover{
+ border: #441752 solid 2px;
+}
+#card-button:hover{
+ color: #E6B2BA;
+ background-color: #420747;
+}
